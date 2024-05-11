@@ -8,7 +8,7 @@ on:
 
 jobs:
   comment:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: First interaction
         uses: actions/first-interaction@v1.3.0
