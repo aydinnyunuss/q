@@ -16,3 +16,6 @@ jobs:
           repo-token: ${{ secrets.SECRET_TOKEN }}
           issue-message: "Welcome! Thank you for open your first issue."
           pr-message: "Welcome! Thank you for opening your first pull request."
+      - name: Metrics embed
+        uses: lowlighter/metrics@v3.34
+            
